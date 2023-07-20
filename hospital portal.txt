@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<body>
+<head>
+<div class="header">
+<h1>WOLFION 
+         HEALTH 
+         CARE</h1>
+  <p>A BETTER SOLUTION AND BETTER HEALTH</p>
+</div>
+<body  align= "center">
+<h1 align="center" style="background-color:powderblue;">WOLFION HEALTHCARE<h1>
+<marquee width="100%" direction="left" height="200px"  size="20" style="color:red">
+ *This is portal can be accessed only by physicians and nurses*
+</marquee>
+<div>
+<form action = "ABOUT US.html">
+<body style= color:"powderblue" align = "center">
+<button onclick="window.location.href='ABOUT US.html;">ABOUT US</button>
+</div>
+<style>
+      div{
+        width:50px;
+    height:50px;
+    vertical-align: center;
+      }
+    </style>
+</form>
+<br>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 350px;
+  text-align: center;
+  background: #1abc8c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 250px 290px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+<div>
+<form action = "update list.html">
+<body style= color:"powderblue" align = "center">
+<button onclick="window.location.href='update list.html;">UPDATED LIST</button>
+</div>
+<style>
+      div{
+        width:50px;
+    height:50px;
+    vertical-align: top;
+      }
+    </style>
+</form>
+<br>
+<div>
+<form action = "APPOINTMENT FORM.html">
+<body style= color:"powderblue" align = "center">
+<button onclick="window.location.href='APPOINTMENT FORM.html;">APPOINTMENT FORM</button>
+</div>
+<style>
+      div{
+        width:50px;
+    height:50px;
+    vertical-align: center;
+      }
+    </style>
+</form>
+<br>
+<button>DOCTOR LIST
+<select name="DOCTOR LIST" id="DOCTORS">
+  <option value="DR.SAILAJA">DR.SAILAJA</option>
+  <option value="DR.ARUNKUMAR">DR.ARUNKUMAR</option>
+  <option value="DR.NIRAV">DR.NIRAV</option>
+  <option value="DR.MANI">DR.MANI</option>
+</select>
+</button>
+</style>
+</head>
+</body>
+</html>

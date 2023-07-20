@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<body>
+<h3>
+ User form</h3>
+<form action="file:///C:/Users/dines/Desktop/submit.html">
+IMG:<img src="hospital.jpg" width="250" height="430">
+Name:<input type="text" name="user name"><br><br>
+Age:<input type="number" name="Age"><br><br>
+Blood Group: 
+  <select name="Blood Group" id="Blood Group">
+    <option value="O">O</option>
+    <option value="A">A+ve</option>
+    <option value="B">B</option>
+    <option value="AB-ve">AB-ve</option>
+  </select> <br><br>
+Ph.no:<input type="number" name="PHONE NUMBER"><br><br>
+Email:<input type="text" name="name"><br><br>
+Sex: <input type="radio" id="MALE" name="Sex" value="MALE">
+  <input type="radio" id="FEMALE" name="Sex" value="FEMALE">
+ <input type="radio" id="Not mentioned" name="Sex" value="Not mentioned">
+
+
+<button>DOCTOR LIST
+<select name="DOCTOR LIST" id="DOCTORS">
+  <option value="DR.SAILAJA">DR.SAILAJA</option>
+  <option value="DR.ARUNKUMAR">DR.ARUNKUMAR</option>
+  <option value="DR.NIRAV">DR.NIRAV</option>
+  <option value="DR.MANI">DR.MANI</option>
+</select>
+</button>
+
+Reason{
+background-color:tomato;
+color:white;
+border: 2px solid black;
+margin: 20px;
+padding:20px;
+}
+
+
+<div class= "Reason">
+Reason:<br><textarea  rows="5" cols="50" name="Reason">
+ENTER HERE
+</textarea><br><br>
+</div>
+
+About Patient Health Records:<br><textarea  rows="5" cols="50" name="ABOUT">
+ENTER HERE
+</textarea><br><br>
+<input type="submit">
+<input type="reset">
+</form>
+</body>
+</html>
